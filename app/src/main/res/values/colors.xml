@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--颜色字典-->
+    <!--基本字典-->
     <color name="transparent">#00000000</color>
     <color name="jet_color_ffe3e3e3">#ffe3e3e3</color>
-    <color name="jet_color_ff2292f8">#ff2292f8</color>
+
+    <!--主题颜色_蓝色-->
+    <color name="jet_color_blue_heave">#ff2292f8</color>
+    <color name="jet_color_blue_default">#872292f8</color>
+    <color name="jet_color_blue_secondary">#482292f8</color>
+
+
+    <!--主题颜色_红色-->
+    <color name="jet_color_red_heave">#ffff0000</color>
+    <color name="jet_color_red_default">#87ff0000</color>
+    <color name="jet_color_red_secondary">#48ff0000</color>
+
+
+    <!--主题颜色_绿色-->
+    <color name="jet_color_green_heave">#ff00ff00</color>
+    <color name="jet_color_green_default">#8700ff00</color>
+    <color name="jet_color_green_secondary">#4800ff00</color>
+
 
     <!--基本界面颜色-->
     <color name="background_color_base">@color/jet_color_ffe3e3e3</color>
@@ -18,7 +35,7 @@
     <color name="jet_text_color_tip">#24000000</color>
 
     <!--主题文字颜色定义-->
-    <color name="jet_text_color_heave_theme">#ff2292f8</color>
-    <color name="jet_text_color_default_theme">#872292f8</color>
-    <color name="jet_text_color_secondary_theme">#482292f8</color>
+    <color name="jet_text_color_heave_theme">@color/jet_color_blue_heave</color>
+    <color name="jet_text_color_default_theme">@color/jet_color_blue_default</color>
+    <color name="jet_text_color_secondary_theme">@color/jet_color_blue_secondary</color>
 </resources>

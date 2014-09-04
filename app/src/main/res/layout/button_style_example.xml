@@ -20,8 +20,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="观看"
-            android:layout_gravity="center_horizontal" />
+            android:text="观看"/>
     </TableRow>
 
     <TableRow android:gravity="center_vertical" android:minHeight="35dp">

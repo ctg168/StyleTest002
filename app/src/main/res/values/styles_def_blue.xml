@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--蓝色主题颜色-->
+    <color name="jet_color_blue_heave">#ff2292f8</color>
+    <color name="jet_color_blue_default">#872292f8</color>
+    <color name="jet_color_blue_secondary">#482292f8</color>
+
     <!--按钮样式-->
     <!--文本按钮：标准主题-->
     <style name="btn_text_theme_style">
         <item name="android:textSize">15dp</item>
+        <item name="android:minWidth">70dp</item>
+        <item name="android:gravity">center</item>
         <item name="android:textColor">@color/jet_text_color_default_theme</item>
-        <item name="android:background">@drawable/btn_theme_base_selector</item>
+        <!--<item name="android:background">@drawable/btn_theme_base_selector</item>-->
     </style>
 
-    <!--文本按钮：标准主题 带选中状态-->
-    <style name="btn_text_theme_2state_style">
-        <item name="android:textSize">15dp</item>
-        <item name="android:textColor">@color/jet_text_color_default_theme</item>
-        <item name="android:background">@drawable/btn_theme_base_selector</item>
-    </style>
 
 </resources>
