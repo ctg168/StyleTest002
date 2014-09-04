@@ -3,16 +3,29 @@
     <style name="AppBaseTheme" parent="@android:style/Theme.Light" />
     <style name="AppBaseTheme_Dark" parent="@android:style/Theme.Black" />
 
-    <style name="JetAppThemeBase" parent="@android:style/Theme.NoTitleBar">
+    <style name="JetAppThemeBase" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@color/background_color_base</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="JetAppThemeBaseNight" parent="@android:style/Theme.NoTitleBar">
         <item name="android:windowNoTitle">true</item>
         <item name="android:textSize">14sp</item>
     </style>
 
     <!--基本主题_蓝色-->
-    <style name="JetAppTheme" parent="JetAppThemeBase">
-        <item name="android:windowBackground">@color/background_color_base</item>
-        <item name="android:textColor">@color/jet_text_color_default</item>
-        <item name="android:buttonStyle">@style/btn_text_theme_style</item>
+    <style name="JetAppThemeBlue" parent="JetAppThemeBase">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="JetAppThemeRed" parent="JetAppThemeBase">
+    </style>
+
+    <style name="JetAppThemeGreen" parent="JetAppThemeBase">
+    </style>
+
+    <style name="JetAppThemeNight" parent="JetAppThemeBaseNight">
     </style>
 
 

@@ -9,18 +9,20 @@
     <color name="jet_color_blue_default">#872292f8</color>
     <color name="jet_color_blue_secondary">#482292f8</color>
 
-
     <!--主题颜色_红色-->
     <color name="jet_color_red_heave">#ffff0000</color>
     <color name="jet_color_red_default">#87ff0000</color>
     <color name="jet_color_red_secondary">#48ff0000</color>
-
 
     <!--主题颜色_绿色-->
     <color name="jet_color_green_heave">#ff00ff00</color>
     <color name="jet_color_green_default">#8700ff00</color>
     <color name="jet_color_green_secondary">#4800ff00</color>
 
+    <!--主题颜色_夜间-->
+    <color name="jet_color_night_heave">#ff00ff00</color>
+    <color name="jet_color_night_default">#8700ff00</color>
+    <color name="jet_color_night_secondary">#4800ff00</color>
 
     <!--基本界面颜色-->
     <color name="background_color_base">@color/jet_color_ffe3e3e3</color>
