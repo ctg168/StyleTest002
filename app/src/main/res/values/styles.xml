@@ -1,0 +1,58 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="@android:style/Theme.Light" />
+
+    <style name="JetAppThemeBase" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/background_color_base</item>
+        <item name="android:textColor">@color/jet_text_color_default</item>
+    </style>
+
+    <!--基本主题-->
+    <style name="JetAppTheme" parent="JetAppThemeBase">
+        <item name="android:textSize">14sp</item>
+        <item name="themeColor">@color/background_color_base </item>
+        <item name="android:buttonStyle">@style/btn_text_theme_style</item>
+    </style>
+
+
+    <!--基本字体-->
+    <style name="font_style_default">
+    </style>
+
+    <style name="font_style_title">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="font_style_caption">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="font_style_secondary">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="font_style_weak">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/jet_text_color_tip</item>
+    </style>
+
+    <!--主题字体-->
+    <style name="font_style_title.theme">
+        <item name="android:textColor">@color/jet_text_color_heave_theme</item>
+    </style>
+
+    <style name="font_style_caption.theme">
+        <item name="android:textColor">@color/jet_text_color_default_theme</item>
+    </style>
+
+    <style name="font_style_secondary.theme">
+        <item name="android:textColor">@color/jet_text_color_secondary_theme</item>
+    </style>
+
+    <style name="font_style_default.theme">
+        <item name="android:textColor">@color/jet_text_color_default_theme</item>
+    </style>
+
+
+</resources>

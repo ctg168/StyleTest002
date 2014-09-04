@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--颜色字典-->
+    <color name="transparent">#00000000</color>
+    <color name="jet_color_ffe3e3e3">#ffe3e3e3</color>
+    <color name="jet_color_ff2292f8">#ff2292f8</color>
+
+    <!--基本界面颜色-->
+    <color name="background_color_base">@color/jet_color_ffe3e3e3</color>
+
+    <!--主题界面颜色-->
+    <color name="fore_color_base">@color/jet_color_ffe3e3e3</color>
+
+    <!--系统内基本文字颜色定义-->
+    <color name="jet_text_color_heave">#ff000000</color>
+    <color name="jet_text_color_default">#87000000</color>
+    <color name="jet_text_color_secondary">#48000000</color>
+    <color name="jet_text_color_tip">#24000000</color>
+
+    <!--主题文字颜色定义-->
+    <color name="jet_text_color_heave_theme">#ff2292f8</color>
+    <color name="jet_text_color_default_theme">#872292f8</color>
+    <color name="jet_text_color_secondary_theme">#482292f8</color>
+</resources>

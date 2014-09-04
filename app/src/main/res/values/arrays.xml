@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="main_page_function">
+        <item>我的</item>
+        <item>试题</item>
+        <item>试卷</item>
+        <item>多媒体</item>
+        <item>网络考试</item>
+        <item>离线学习</item>
+    </string-array>
+
+</resources>

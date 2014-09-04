@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:text="主题变电站值班员考试(Title)"
+        style="@style/font_style_title.theme" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:text="答案(Caption)"
+        style="@style/font_style_caption.theme" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        style="@style/font_style_default.theme"
+        android:text="正文：据国外媒体的报道，知情人士日前表示，电动汽车厂商特斯拉斥资50亿美元投建的超级电池工厂Gigafactory很可能将会落户在美国内华达州，该工厂未来所生产的电池将会用于日益增长的电动车生产组装上。" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        style="@style/font_style_secondary.theme"
+        android:text="注解：百度新闻与网易科技合作稿件，转载请注明出处。" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_marginTop="10sp"
+        android:text="2014-01-05"
+        style="@style/font_style_weak" />
+</LinearLayout>

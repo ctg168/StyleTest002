@@ -1,0 +1,5 @@
+<resources>
+   <style name="JetAppTheme_NoTitle" parent="JetAppTheme">
+        <item name="android:windowActionBar">false</item>
+    </style>
+</resources>
