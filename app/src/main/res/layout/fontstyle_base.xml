@@ -9,15 +9,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10sp"
+        style="@style/font_style.title"
         android:text="基本变电站值班员考试(Title)"
-        style="@style/font_style_title" />
+/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10sp"
-        android:text="答案(Caption)"
-        style="@style/font_style_caption" />
+        style="@style/font_style.caption"
+        android:text="答案(Caption)"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -29,7 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10sp"
-        style="@style/font_style_secondary"
+        style="@style/font_style.secondary"
         android:text="注解：百度新闻与网易科技合作稿件，转载请注明出处。" />
 
     <TextView
@@ -37,6 +38,6 @@
         android:layout_height="wrap_content"
         android:gravity="right"
         android:layout_marginTop="10sp"
-        android:text="2014-01-05"
-        style="@style/font_style_weak" />
+        style="@style/font_style.weak"
+        android:text="2014-01-05"/>
 </LinearLayout>

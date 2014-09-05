@@ -1,70 +1,50 @@
 <resources>
 
-    <style name="AppBaseTheme" parent="@android:style/Theme.Light" />
-    <style name="AppBaseTheme_Dark" parent="@android:style/Theme.Black" />
+    <!--<style name="JetAppTheme.Light" parent="@android:style/Theme.Light.NoTitleBar">-->
+        <!--<item name="android:windowBackground">@color/background_color_base</item>-->
+        <!--<item name="android:windowNoTitle">true</item>-->
+        <!--<item name="android:textSize">14sp</item>-->
+    <!--</style>-->
 
-    <style name="JetAppThemeBase" parent="@android:style/Theme.Light.NoTitleBar">
+    <!--<style name="JetAppTheme.Dark" parent="@android:style/Theme.NoTitleBar">-->
+        <!--<item name="android:windowNoTitle">true</item>-->
+        <!--<item name="android:textSize">14sp</item>-->
+    <!--</style>-->
+
+
+    <style name="JetAppTheme.Light" parent="@android:style/Theme.Light.NoTitleBar">
         <item name="android:windowBackground">@color/background_color_base</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:textSize">14sp</item>
     </style>
 
-    <style name="JetAppThemeBaseNight" parent="@android:style/Theme.NoTitleBar">
+    <style name="JetAppTheme.Dark" parent="@android:style/Theme.NoTitleBar">
         <item name="android:windowNoTitle">true</item>
         <item name="android:textSize">14sp</item>
     </style>
 
-    <!--基本主题_蓝色-->
-    <style name="JetAppThemeBlue" parent="JetAppThemeBase">
-        <item name="android:textColor">?android:textColorPrimary</item>
-    </style>
-
-    <style name="JetAppThemeRed" parent="JetAppThemeBase">
-    </style>
-
-    <style name="JetAppThemeGreen" parent="JetAppThemeBase">
-    </style>
-
-    <style name="JetAppThemeNight" parent="JetAppThemeBaseNight">
-    </style>
-
-
     <!--基本字体-->
-    <style name="font_style_default">
+    <style name="font_style">
     </style>
 
-    <style name="font_style_title">
+    <style name="font_style.title">
         <item name="android:textSize">24sp</item>
     </style>
 
-    <style name="font_style_caption">
+    <style name="font_style.caption">
         <item name="android:textSize">18sp</item>
     </style>
 
-    <style name="font_style_secondary">
+    <style name="font_style.secondary">
         <item name="android:textSize">12sp</item>
     </style>
 
-    <style name="font_style_weak">
+    <style name="font_style.weak">
         <item name="android:textSize">12sp</item>
+        <!--
         <item name="android:textColor">@color/jet_text_color_tip</item>
-    </style>
-
-    <!--主题字体-->
-    <style name="font_style_title.theme">
-        <item name="android:textColor">@color/jet_text_color_heave_theme</item>
-    </style>
-
-    <style name="font_style_caption.theme">
-        <item name="android:textColor">@color/jet_text_color_default_theme</item>
-    </style>
-
-    <style name="font_style_secondary.theme">
-        <item name="android:textColor">@color/jet_text_color_secondary_theme</item>
-    </style>
-
-    <style name="font_style_default.theme">
-        <item name="android:textColor">@color/jet_text_color_default_theme</item>
+        如果是夜间模式，此处根本看不到，故先屏蔽
+        -->
     </style>
 
 

@@ -13,35 +13,20 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <include
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            layout="@layout/fontstyle_base" />
-
-        <include
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            layout="@layout/fontstyle_theme" />
-
-        <include
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            layout="@layout/fontstyle_base" />
-
-        <include
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            layout="@layout/fontstyle_mixed" />
-
-        <include
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            layout="@layout/fontstyle_theme" />
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="切换主题"
+            android:id="@+id/tvSwitchTheme"
+            />
 
         <include
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             layout="@layout/fontstyle_base" />
+
+
     </LinearLayout>
 
 </ScrollView>
