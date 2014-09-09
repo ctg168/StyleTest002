@@ -1,14 +1,14 @@
 <resources>
 
     <!--<style name="JetAppTheme.Light" parent="@android:style/Theme.Light.NoTitleBar">-->
-        <!--<item name="android:windowBackground">@color/background_color_base</item>-->
-        <!--<item name="android:windowNoTitle">true</item>-->
-        <!--<item name="android:textSize">14sp</item>-->
+    <!--<item name="android:windowBackground">@color/background_color_base</item>-->
+    <!--<item name="android:windowNoTitle">true</item>-->
+    <!--<item name="android:textSize">14sp</item>-->
     <!--</style>-->
 
     <!--<style name="JetAppTheme.Dark" parent="@android:style/Theme.NoTitleBar">-->
-        <!--<item name="android:windowNoTitle">true</item>-->
-        <!--<item name="android:textSize">14sp</item>-->
+    <!--<item name="android:windowNoTitle">true</item>-->
+    <!--<item name="android:textSize">14sp</item>-->
     <!--</style>-->
 
 
@@ -24,8 +24,7 @@
     </style>
 
     <!--基本字体-->
-    <style name="font_style">
-    </style>
+    <style name="font_style"></style>
 
     <style name="font_style.title">
         <item name="android:textSize">24sp</item>
